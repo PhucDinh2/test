@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" th:href="@{/images/logo/logo.ico}">
+
+    <title>Lion Admin - Log in </title>
+    <link rel="stylesheet" th:href="@{https://kit-pro.fontawesome.com/releases/v5.12.0/css/pro.min.css}">
+    <!-- Vendors Style-->
+    <link rel="stylesheet" th:href="@{/src/css/vendors_css.css}">
+    <!-- Style-->
+    <link rel="stylesheet" th:href="@{/assets/vendor_components/bootstrap/bootstrap.css}">
+    <link rel="stylesheet" th:href="@{/src/css/style.css}">
+    <link rel="stylesheet" th:href="@{/src/css/skin_color.css}">
+
+</head>
+
+<body class="hold-transition dark-skin theme-primary bg-img" style="background-image: url(/images/auth-bg/bg-16.jpg)" data-overlay="5">
+
+<div class="container h-p100">
+    <div class="row align-items-center justify-content-md-center h-p100">
+
+        <div class="col-12">
+            <div class="row justify-content-center g-0">
+                <div class="col-lg-5 col-md-5 col-12">
+                    <div class="bg-gray-800 rounded10 shadow-lg">
+                        <div class="content-top-agile p-20 pb-0">
+                            <h2 class="text-primary fw-600">Let's Get Started</h2>
+                            <p class="mb-0 text-fade">Register to continue to Admin.</p>
+                        </div>
+                        <div class="p-40">
+                            <form th:action="@{/register}" th:object="${user}" method="post">
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text"><i class="fad fa-user"></i></span>
+                                        <input type="text" class="form-control ps-15 " placeholder="Username" required name="fullname">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text"><i class="far fa-envelope"></i></span>
+                                        <input type="email" class="form-control ps-15 " placeholder="Enter email" required name="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-group mb-3">
+                                        <span class="input-group-text"><i class="fad fa-lock-alt"></i></span>
+                                        <input type="password" class="form-control ps-15" placeholder="Password" required name="password">
+                                    </div>
+                                </div>
+                                <div th:if="${session.message}" th:classappend="${session.message}" class="alert alert-success mt-2 mb-2" role="alert">
+                                    <p th:text="${session.message}"></p>
+                                    <th:block th:text="${#session.removeAttribute('message')}"></th:block>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 text-center">
+                                        <button type="submit" class="btn btn-primary w-p100 mt-10">Register</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <div class="text-center">
+                                <p class="mt-15 mb-0 text-fade">Already have an account? <a th:href="@{/login}" class="text-primary ms-5">Sign In</a></p>
+                            </div>
+
+                            <div class="text-center">
+                                <p class="mt-20 text-fade">- Sign With -</p>
+                                <p class="gap-items-2 mb-0">
+                                    <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-facebook-light" th:href="@{https://www.facebook.com/}"><i class="fab fa-facebook-f"></i></a>
+                                    <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-twitter-light" th:href="@{https://twitter.com/}"><i class="fab fa-twitter"></i></a>
+                                    <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-instagram-light" th:href="@{https://www.instagram.com/}"><i class="fab fa-instagram"></i></a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Vendor JS -->
+    <script th:src="@{/src/js/vendors.min.js}"></script>
+    <script th:src="@{/src/js/pages/chat-popup.js}"></script>
+    <script th:src="@{/assets/icons/feather-icons/feather.min.js}"></script>
+</body>
+</html>

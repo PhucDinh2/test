@@ -1,0 +1,405 @@
+2022-07-27 09:53:17,759 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 20840 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 09:53:17,761 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 09:53:17,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 09:53:17,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 09:53:17,805 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 09:53:18,396 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 09:53:18,466 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 59 ms. Found 5 JPA repository interfaces.
+2022-07-27 09:53:18,574 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 09:53:19,046 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 09:53:19,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 09:53:19,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 09:53:19,055 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 09:53:19,118 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 09:53:19,118 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1312 ms
+2022-07-27 09:53:19,270 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 09:53:19,326 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 09:53:19,477 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 09:53:19,562 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 09:53:19,953 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 09:53:19,967 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 09:53:20,741 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 09:53:20,747 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 09:53:20,788 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 09:53:21,226 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@15eea3de, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@60113b89, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ebd7752, org.springframework.security.web.header.HeaderWriterFilter@570799a3, org.springframework.security.web.authentication.logout.LogoutFilter@4f997b56, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@767e2e60, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1ee1976, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@18df1c25, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23898a3d, org.springframework.security.web.session.SessionManagementFilter@2849b50d, org.springframework.security.web.access.ExceptionTranslationFilter@40f58bc5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7d19e98b]
+2022-07-27 09:53:21,361 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 09:53:21,562 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 09:53:21,568 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 09:53:21,568 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 09:53:21,568 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 09:53:21,569 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 09:53:21,640 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 09:53:21,655 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 09:53:21,666 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 4.349 seconds (JVM running for 5.021)
+2022-07-27 09:54:37,217 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 09:54:37,217 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 09:54:37,218 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 09:55:24,337 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-4] ProductRequest: projectdemo.com.democompany.request.ProductRequest@542cc434
+2022-07-27 09:55:24,375 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-4] Â: 2
+2022-07-27 10:01:05,663 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:01:05,667 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:01:05,675 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:01:08,678 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 11440 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:01:08,680 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:01:08,720 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:01:08,721 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:01:08,721 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:01:09,230 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:01:09,283 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 45 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:01:09,379 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:01:09,783 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:01:09,792 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:01:09,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:01:09,793 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:01:09,862 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:01:09,863 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1141 ms
+2022-07-27 10:01:10,039 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:01:10,088 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:01:10,217 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:01:10,289 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:01:10,626 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:01:10,638 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:01:11,255 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:01:11,261 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:01:11,303 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:01:11,710 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2faa0254, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@47b35b33, org.springframework.security.web.context.SecurityContextPersistenceFilter@1bd39b11, org.springframework.security.web.header.HeaderWriterFilter@50b1274, org.springframework.security.web.authentication.logout.LogoutFilter@4d43e4f7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fed1a90, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@135ab853, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c6bae55, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@df031d0, org.springframework.security.web.session.SessionManagementFilter@3465f90e, org.springframework.security.web.access.ExceptionTranslationFilter@63f91084, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@56be33b6]
+2022-07-27 10:01:11,825 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:01:12,004 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:01:12,008 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:01:12,009 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:01:12,009 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:01:12,011 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:01:12,064 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:01:12,077 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:01:12,088 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 3.789 seconds (JVM running for 4.454)
+2022-07-27 10:01:21,944 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:01:21,944 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:01:21,945 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:02:09,613 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:02:09,616 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:02:09,621 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:02:12,528 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 21140 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:02:12,529 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:02:12,573 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:02:12,574 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:02:12,574 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:02:13,075 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:02:13,135 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:02:13,230 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:02:13,584 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:02:13,590 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:02:13,590 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:02:13,590 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:02:13,641 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:02:13,642 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1067 ms
+2022-07-27 10:02:13,796 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:02:13,820 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:02:13,903 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:02:13,962 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:02:14,168 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:02:14,177 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:02:14,686 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:02:14,691 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:02:14,728 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:02:15,115 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@2a069b01, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4f5b93d0, org.springframework.security.web.context.SecurityContextPersistenceFilter@1b50d11b, org.springframework.security.web.header.HeaderWriterFilter@7010f0d8, org.springframework.security.web.authentication.logout.LogoutFilter@66b49704, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15f8f0aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@59b2d9ea, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bc775f9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@66de2752, org.springframework.security.web.session.SessionManagementFilter@3bfdc55, org.springframework.security.web.access.ExceptionTranslationFilter@2b423de, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5e01017f]
+2022-07-27 10:02:15,228 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:02:15,395 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:02:15,400 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:02:15,401 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:02:15,401 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:02:15,402 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:02:15,454 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:02:15,467 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:02:15,477 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 3.316 seconds (JVM running for 4.105)
+2022-07-27 10:02:28,357 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:02:28,357 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:02:28,358 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:03:00,504 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-9] ProductRequest: projectdemo.com.democompany.request.ProductRequest@20f72c76
+2022-07-27 10:03:00,650 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-9] Â: 2
+2022-07-27 10:19:22,126 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:19:22,129 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:19:22,135 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:19:34,017 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 13052 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:19:34,018 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:19:34,060 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:19:34,061 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:19:34,061 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:19:34,633 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:19:34,687 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:19:34,803 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:19:35,234 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:19:35,242 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:19:35,242 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:19:35,242 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:19:35,302 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:19:35,303 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1240 ms
+2022-07-27 10:19:35,451 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:19:35,491 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:19:35,620 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:19:35,704 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:19:36,006 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:19:36,019 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:19:36,818 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:19:36,827 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:19:36,892 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:19:37,485 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7ba36d22, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@78e7011e, org.springframework.security.web.context.SecurityContextPersistenceFilter@28bfa18c, org.springframework.security.web.header.HeaderWriterFilter@288c5817, org.springframework.security.web.authentication.logout.LogoutFilter@48584f49, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e0f9a77, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@47772d22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@d52f67d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5e8b58f, org.springframework.security.web.session.SessionManagementFilter@1dc4ad2f, org.springframework.security.web.access.ExceptionTranslationFilter@284efbb2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a46fba8]
+2022-07-27 10:19:37,672 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:19:37,942 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:19:37,949 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:19:37,950 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:19:37,950 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:19:37,952 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:19:38,024 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:19:38,043 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:19:38,055 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 4.534 seconds (JVM running for 6.116)
+2022-07-27 10:19:42,420 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:19:42,420 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:19:42,421 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:24:50,994 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:24:50,997 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:24:51,004 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:25:01,443 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 12308 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:25:01,446 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:25:01,499 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:25:01,499 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:25:01,500 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:25:02,083 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:25:02,135 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 46 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:25:02,253 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:25:02,643 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:25:02,651 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:25:02,651 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:25:02,651 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:25:02,706 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:25:02,706 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1205 ms
+2022-07-27 10:25:02,889 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:25:02,917 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:25:03,013 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:25:03,081 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:25:03,313 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:25:03,322 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:25:03,931 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:25:03,936 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:25:03,983 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:25:04,386 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4078e470, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69cffc9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6c0dc9b2, org.springframework.security.web.header.HeaderWriterFilter@fe12b84, org.springframework.security.web.authentication.logout.LogoutFilter@2de944c8, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1efbd0fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ed6e78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5899cd13, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c1384c5, org.springframework.security.web.session.SessionManagementFilter@de20155, org.springframework.security.web.access.ExceptionTranslationFilter@49ebda4b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5cf56085]
+2022-07-27 10:25:04,517 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:25:04,744 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:25:04,750 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:25:04,751 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:25:04,751 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:25:04,752 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:25:04,817 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:25:04,844 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:25:04,856 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 4.083 seconds (JVM running for 4.636)
+2022-07-27 10:25:10,258 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:25:10,258 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:25:10,259 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:28:09,763 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:28:09,765 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:28:09,772 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:28:15,266 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 14328 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:28:15,268 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:28:15,310 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:28:15,310 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:28:15,310 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:28:15,805 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:28:15,851 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 38 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:28:15,945 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:28:16,301 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:28:16,308 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:28:16,308 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:28:16,309 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:28:16,358 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:28:16,358 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1047 ms
+2022-07-27 10:28:16,502 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:28:16,526 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:28:16,609 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:28:16,662 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:28:16,874 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:28:16,882 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:28:17,396 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:28:17,402 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:28:17,439 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:28:17,829 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@49c24bf, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c4909b, org.springframework.security.web.context.SecurityContextPersistenceFilter@6953e60e, org.springframework.security.web.header.HeaderWriterFilter@371d8fca, org.springframework.security.web.authentication.logout.LogoutFilter@3465f90e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@235cbd69, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6c0dc9b2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70a363ef, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4078e470, org.springframework.security.web.session.SessionManagementFilter@fe12b84, org.springframework.security.web.access.ExceptionTranslationFilter@499af0ed, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1624c80f]
+2022-07-27 10:28:17,945 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:28:18,114 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:28:18,120 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:28:18,120 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:28:18,120 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:28:18,121 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:28:18,171 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:28:18,183 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:28:18,193 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 3.304 seconds (JVM running for 4.036)
+2022-07-27 10:28:22,954 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:28:22,955 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:28:22,956 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:28:50,003 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-6] ProductRequest: projectdemo.com.democompany.request.ProductRequest@57b55588
+2022-07-27 10:28:50,152 INFO projectdemo.com.democompany.controller.ProductController [http-nio-8080-exec-6] Â: 2
+2022-07-27 10:32:13,492 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:32:13,498 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:32:13,505 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:32:18,607 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 6680 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:32:18,608 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:32:18,649 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:32:18,649 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:32:18,649 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:32:19,135 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:32:19,181 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 39 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:32:19,282 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:32:19,627 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:32:19,633 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:32:19,634 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:32:19,634 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:32:19,687 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:32:19,687 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1037 ms
+2022-07-27 10:32:19,841 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:32:19,868 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:32:19,949 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:32:20,003 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:32:20,214 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:32:20,222 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:32:20,764 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:32:20,769 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:32:20,809 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:32:21,195 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@68bd6b17, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b6ddc46, org.springframework.security.web.context.SecurityContextPersistenceFilter@547133f, org.springframework.security.web.header.HeaderWriterFilter@2ee48205, org.springframework.security.web.authentication.logout.LogoutFilter@35d5f9bd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ab94fec, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4da214a4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e3991c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@b289e07, org.springframework.security.web.session.SessionManagementFilter@62820a76, org.springframework.security.web.access.ExceptionTranslationFilter@4413ce1a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@39989a7b]
+2022-07-27 10:32:21,300 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:32:21,469 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:32:21,475 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:32:21,476 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:32:21,477 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:32:21,477 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:32:21,529 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:32:21,542 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:32:21,552 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 3.27 seconds (JVM running for 3.809)
+2022-07-27 10:32:25,120 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:32:25,120 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:32:25,121 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 1 ms
+2022-07-27 10:42:32,495 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:42:32,498 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 10:42:32,506 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 10:42:38,954 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 15416 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 10:42:38,955 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 10:42:38,999 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 10:42:39,000 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 10:42:39,001 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 10:42:39,492 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 10:42:39,540 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 42 ms. Found 5 JPA repository interfaces.
+2022-07-27 10:42:39,638 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 10:42:40,045 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 10:42:40,054 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:42:40,054 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 10:42:40,054 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 10:42:40,121 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 10:42:40,121 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1120 ms
+2022-07-27 10:42:40,298 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 10:42:40,353 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 10:42:40,508 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 10:42:40,578 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 10:42:40,920 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 10:42:40,934 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 10:42:41,567 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 10:42:41,573 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 10:42:41,615 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 10:42:42,019 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@645a8407, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c562536, org.springframework.security.web.context.SecurityContextPersistenceFilter@257f71db, org.springframework.security.web.header.HeaderWriterFilter@1502acf0, org.springframework.security.web.authentication.logout.LogoutFilter@70a363ef, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c9af8f1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@293d340a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@49ebda4b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56266e79, org.springframework.security.web.session.SessionManagementFilter@463b9595, org.springframework.security.web.access.ExceptionTranslationFilter@39a9b980, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@bede8b2]
+2022-07-27 10:42:42,133 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 10:42:42,307 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 10:42:42,312 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 10:42:42,312 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 10:42:42,314 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 10:42:42,314 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 10:42:42,368 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 10:42:42,381 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 10:42:42,392 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 3.827 seconds (JVM running for 4.433)
+2022-07-27 10:58:32,750 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 10:58:32,762 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 10:58:32,854 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 92 ms
+2022-07-27 11:16:50,675 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 11:16:50,706 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 11:16:50,712 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 13:05:46,257 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 19420 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 13:05:46,261 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 13:05:46,743 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 13:05:46,743 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 13:05:46,754 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 13:05:49,668 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 13:05:49,764 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 86 ms. Found 5 JPA repository interfaces.
+2022-07-27 13:05:49,941 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 13:05:50,471 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 13:05:50,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 13:05:50,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 13:05:50,479 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 13:05:50,570 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 13:05:50,570 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3812 ms
+2022-07-27 13:05:50,959 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 13:05:51,042 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 13:05:51,189 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 13:05:51,294 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 13:05:51,747 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 13:05:51,759 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 13:05:53,069 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 13:05:53,081 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 13:05:53,153 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 13:05:53,806 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@43f7a266, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2f3ae655, org.springframework.security.web.context.SecurityContextPersistenceFilter@1629f501, org.springframework.security.web.header.HeaderWriterFilter@29ef9d47, org.springframework.security.web.authentication.logout.LogoutFilter@65425c5e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1627cc09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60157157, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@76383803, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7b020c6e, org.springframework.security.web.session.SessionManagementFilter@d0e894e, org.springframework.security.web.access.ExceptionTranslationFilter@2ab9c8c3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1f1f9d81]
+2022-07-27 13:05:53,989 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 13:05:54,297 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 13:05:54,301 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 13:05:54,301 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 13:05:54,301 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 13:05:54,305 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 13:05:54,373 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 13:05:54,389 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 13:05:54,401 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 9.125 seconds (JVM running for 10.328)
+2022-07-27 13:08:02,031 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 13:08:02,031 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-07-27 13:08:02,033 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 2 ms
+2022-07-27 16:01:28,900 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 16:01:29,172 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 16:01:29,277 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
+2022-07-27 16:01:38,946 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 19384 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-27 16:01:38,947 INFO org.springframework.boot.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2022-07-27 16:01:39,004 INFO org.springframework.boot.logging.DeferredLog [restartedMain] The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-27 16:01:39,004 INFO org.springframework.boot.logging.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-27 16:01:39,005 INFO org.springframework.boot.logging.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-27 16:01:39,665 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-27 16:01:39,739 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 61 ms. Found 5 JPA repository interfaces.
+2022-07-27 16:01:39,852 WARN tk.mybatis.spring.mapper.ClassPathMapperScanner [restartedMain] No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-27 16:01:40,344 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8080 (http)
+2022-07-27 16:01:40,352 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-8080"]
+2022-07-27 16:01:40,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2022-07-27 16:01:40,353 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-27 16:01:40,417 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2022-07-27 16:01:40,418 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 1413 ms
+2022-07-27 16:01:40,565 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-27 16:01:40,629 INFO org.hibernate.Version [restartedMain] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-27 16:01:40,801 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [restartedMain] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-27 16:01:40,889 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2022-07-27 16:01:41,266 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2022-07-27 16:01:41,282 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-27 16:01:42,196 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-27 16:01:42,202 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 16:01:42,242 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-27 16:01:42,722 INFO org.springframework.security.web.DefaultSecurityFilterChain [restartedMain] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1bd39b11, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e5bcec, org.springframework.security.web.context.SecurityContextPersistenceFilter@3567844e, org.springframework.security.web.header.HeaderWriterFilter@17f3cc19, org.springframework.security.web.authentication.logout.LogoutFilter@538bf8ff, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5c3d5622, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4692c5a9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@45479c0b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@135ab853, org.springframework.security.web.session.SessionManagementFilter@29f7886f, org.springframework.security.web.access.ExceptionTranslationFilter@5b9579c1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63f91084]
+2022-07-27 16:01:42,860 INFO org.springframework.boot.autoconfigure.web.servlet.WelcomePageHandlerMapping [restartedMain] Adding welcome page template: index
+2022-07-27 16:01:43,058 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2022-07-27 16:01:43,064 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-27 16:01:43,064 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-27 16:01:43,064 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-27 16:01:43,066 INFO tk.mybatis.mapper.autoconfigure.MapperCacheDisabler [restartedMain] Clear EntityHelper entityTableMap cache.
+2022-07-27 16:01:43,131 INFO org.apache.juli.logging.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-8080"]
+2022-07-27 16:01:43,146 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-27 16:01:43,164 INFO org.springframework.boot.StartupInfoLogger [restartedMain] Started DemoCompanyApplication in 4.68 seconds (JVM running for 5.443)
+2022-07-27 16:02:48,445 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-4] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-27 16:02:48,445 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Initializing Servlet 'dispatcherServlet'
+2022-07-27 16:02:48,447 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-4] Completed initialization in 2 ms
+2022-07-27 16:03:08,018 INFO projectdemo.com.democompany.controller.UserAdController [http-nio-8080-exec-8] List user with detail information
+2022-07-27 16:03:12,155 INFO projectdemo.com.democompany.controller.UserAdController [http-nio-8080-exec-2] List role with information
+2022-07-27 16:03:12,166 INFO projectdemo.com.democompany.controller.UserAdController [http-nio-8080-exec-2] List department with information
+2022-07-27 16:03:31,753 INFO projectdemo.com.democompany.controller.UserAdController [http-nio-8080-exec-6] Save Users: UserEntity{user_id=null, fullname='Nguyễn Ngọc Minh', email='Minh@gmail.com', password='123456', status=true, role_id='ROLE_ADMIN', comments='Mô tả', employee=null, department=null}
+2022-07-27 16:03:32,243 INFO projectdemo.com.democompany.controller.UserAdController [http-nio-8080-exec-4] List user with detail information
+2022-07-27 16:07:06,691 INFO projectdemo.com.democompany.controller.EmployeeController [http-nio-8080-exec-1] Employee update: EmployeeEntity{employee_id=null, birthday='2008-06-20', employee_code='MNN123', images='null', gender='Nữ', phone='0969389456', timework='2022-05-18', position='Nhân Viên', education='Đại học', exp='3 Năm', expenglish='Master', address='Ngọc Hồi, Đống Đa, Hà Nội', target='Mục tiêu rõ ràng', comments='Nội dung ghi chú', user=null, products=null}
+2022-07-27 16:13:11,766 INFO projectdemo.com.democompany.controller.EmployeeController [http-nio-8080-exec-3] Employee update: EmployeeEntity{employee_id=null, birthday='2000-06-28', employee_code='PT154', images='null', gender='Nam', phone='0969389517', timework='2022-05-09', position='Nhân Viên', education='Đại học', exp='3 năm', expenglish='master', address='Đê La Thành, Hà Nội', target='Mục tiêu rõ ràng', comments='nội dung ghi chú', user=null, products=null}
+2022-07-27 16:20:01,181 INFO projectdemo.com.democompany.controller.EmployeeController [http-nio-8080-exec-5] Employee update: EmployeeEntity{employee_id=null, birthday='2000-06-28', employee_code='PT154', images='null', gender='Nam', phone='0969389517', timework='2022-05-09', position='Nhân Viên', education='Đại học', exp='3 Năm', expenglish='Master', address='Đê La Thành, Hà Nội', target='Mục tiêu rõ ràng', comments='Nội dung ghi chú', user=null, products=null}
+2022-07-27 16:23:09,785 INFO projectdemo.com.democompany.controller.EmployeeController [http-nio-8080-exec-4] Employee update: EmployeeEntity{employee_id=null, birthday='2000-06-28', employee_code='PT154', images='null', gender='Nam', phone='0969389517', timework='2022-05-09', position='Nhân Viên', education='Đại học', exp='gfh', expenglish='á', address='Đê La Thành, Hà Nội', target='adfg', comments='àd', user=null, products=null}
+2022-07-27 16:23:53,799 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [SpringApplicationShutdownHook] Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-27 16:23:53,833 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-07-27 16:23:53,860 INFO com.zaxxer.hikari.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.

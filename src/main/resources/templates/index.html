@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<!-- Mirrored from lion-admin-templates.multipurposethemes.com/bs5/template/vertical/main-dark/auth_login_dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2022 04:04:53 GMT -->
+<head>
+  <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" th:href="@{/images/logo/logo.ico}">
+
+    <title>Lion Admin - Log in </title>
+	<link rel="stylesheet" th:href="@{https://kit-pro.fontawesome.com/releases/v5.12.0/css/pro.min.css}">
+	<!-- Vendors Style-->
+	<link rel="stylesheet" th:href="@{/src/css/vendors_css.css}">
+	<!-- Style-->
+	<link rel="stylesheet" th:href="@{/assets/vendor_components/bootstrap/bootstrap.css}">
+	<link rel="stylesheet" th:href="@{/src/css/style.css}">
+	<link rel="stylesheet" th:href="@{/src/css/skin_color.css}">
+
+</head>
+	
+<body class="hold-transition dark-skin theme-primary bg-img" style="background-image: url(/images/auth-bg/bg-16.jpg)" data-overlay="5">
+	
+	<div class="container h-p100">
+		<div class="row align-items-center justify-content-md-center h-p100">	
+			
+			<div class="col-12">
+				<div class="row justify-content-center g-0">
+					<div class="col-lg-5 col-md-5 col-12">
+						<div class="bg-gray-800 rounded10 shadow-lg">
+							<div class="content-top-agile p-20 pb-0">
+								<h2 class="text-primary fw-600">Let's Get Started</h2>
+								<p class="mb-0 text-fade">Sign in to continue to Lion Admin.</p>							
+							</div>
+							<div class="col-12 text-center">
+
+								<!--alert message-->
+								<div th:if="${param.logout}" class="mt-4 mb-2">
+									<h5 class="text-center text-success">Logout Successfully</h5>
+								</div>
+
+								<div th:if="${param.error}" class="mt-4 mb-2">
+									<h5 class="text-center text-danger">Invalid Username And Password</h5>
+								</div>
+								<!--End alert message-->
+
+							</div>
+							<div class="p-50">
+								<form th:action="@{/dologin}" method="POST">
+									<div class="form-group">
+										<div class="input-group mb-3">
+											<span class="input-group-text"><i class="fad fa-user"></i></span>
+											<input type="email" name="username" class="form-control ps-15 " placeholder="Enter email">
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="input-group mb-3">
+											<span class="input-group-text"><i class="fad fa-lock-alt"></i></span>
+											<input type="password" name="password" class="form-control ps-15" placeholder="Password">
+										</div>
+									</div>
+									  <div class="row">
+										<!-- /.col -->
+										<div class="col-12 text-center">
+
+										  <button type="submit" class="btn btn-primary w-p100 mt-10">SIGN IN</button>
+										</div>
+										<!-- /.col -->
+									  </div>
+								</form>	
+								<div class="text-center">
+									<p class="mt-15 mb-0 text-fade">Don't have an account? <a th:href="@{/register}" class="text-primary ms-5">Sign Up</a></p>
+								</div>
+								
+								<div class="text-center">
+								  <p class="mt-20 text-fade">- Sign With -</p>
+								  <p class="gap-items-2 mb-0">
+									  <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-facebook-light" th:href="@{https://www.facebook.com/}"><i class="fab fa-facebook-f"></i></a>
+									  <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-twitter-light" th:href="@{https://twitter.com/}"><i class="fab fa-twitter"></i></a>
+									  <a class="waves-effect waves-circle btn btn-social-icon btn-circle btn-instagram-light" th:href="@{https://www.instagram.com/}"><i class="fab fa-instagram"></i></a>
+									</p>	
+								</div>
+							</div>						
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<!-- Vendor JS -->
+	<script th:src="@{/src/js/vendors.min.js}"></script>
+	<script th:src="@{/src/js/pages/chat-popup.js}"></script>
+    <script th:src="@{/assets/icons/feather-icons/feather.min.js}"></script>
+</body>
+
+<!-- Mirrored from lion-admin-templates.multipurposethemes.com/bs5/template/vertical/main-dark/auth_login_dark.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 21 Jun 2022 04:04:53 GMT -->
+</html>

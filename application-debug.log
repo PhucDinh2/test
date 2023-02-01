@@ -1,0 +1,76 @@
+2022-07-26 08:21:06.132  INFO 11452 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 11452 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-26 08:21:06.135  INFO 11452 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-26 08:21:06.259  INFO 11452 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-26 08:21:06.264  INFO 11452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 08:21:06.265  INFO 11452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 08:21:07.088  INFO 11452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:21:07.147  INFO 11452 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 5 JPA repository interfaces.
+2022-07-26 08:21:07.252  WARN 11452 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-26 08:21:07.659  INFO 11452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-26 08:21:07.665  INFO 11452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:21:07.666  INFO 11452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-26 08:21:07.747  INFO 11452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:21:07.747  INFO 11452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1459 ms
+2022-07-26 08:21:07.908  INFO 11452 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:21:07.936  INFO 11452 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-26 08:21:08.026  INFO 11452 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 08:21:08.098  INFO 11452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 08:21:08.343  INFO 11452 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 08:21:08.353  INFO 11452 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-26 08:21:08.904  INFO 11452 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:21:08.910  INFO 11452 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:21:08.956  WARN 11452 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-26 08:21:09.380  INFO 11452 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@6d499128, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3448ca9f, org.springframework.security.web.context.SecurityContextPersistenceFilter@3095a1a8, org.springframework.security.web.header.HeaderWriterFilter@1f8b38b5, org.springframework.security.web.authentication.logout.LogoutFilter@74f54c65, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@19744fd1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74eeb38b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6262f0c6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69c48d7c, org.springframework.security.web.session.SessionManagementFilter@4e40b3a4, org.springframework.security.web.access.ExceptionTranslationFilter@5f8e5344, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@ad9aa1]
+2022-07-26 08:21:09.495  INFO 11452 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-26 08:21:09.688  INFO 11452 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-26 08:21:09.693  INFO 11452 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-26 08:21:09.694  INFO 11452 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-26 08:21:09.694  INFO 11452 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-26 08:21:09.695  INFO 11452 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2022-07-26 08:21:09.766  INFO 11452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-26 08:21:09.777  INFO 11452 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : Started DemoCompanyApplication in 4.291 seconds (JVM running for 5.176)
+2022-07-26 08:21:15.028  INFO 11452 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-26 08:21:15.029  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-26 08:21:15.030  INFO 11452 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-26 08:21:20.295  INFO 11452 --- [http-nio-8080-exec-3] p.c.d.controller.DepartmentController    : depart get: DepartmentEntity{department_id=5, department_name='Tuyển dụng', department_code='TD', userEntity=[]}
+2022-07-26 08:21:45.595  INFO 11452 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:21:45.597  INFO 11452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 08:21:45.607  INFO 11452 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-26 08:21:48.567  INFO 14704 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : Starting DemoCompanyApplication using Java 18.0.1.1 on DESKTOP-AVS1VFD with PID 14704 (D:\demoCompany\target\classes started by admin in D:\demoCompany)
+2022-07-26 08:21:48.568  INFO 14704 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : No active profile set, falling back to 1 default profile: "default"
+2022-07-26 08:21:48.613  INFO 14704 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\admin\.m2\repository\javax\mail\mail\1.4\mail-1.4.jar referenced one or more files that do not exist: file:/C:/Users/admin/.m2/repository/javax/mail/mail/1.4/activation.jar
+2022-07-26 08:21:48.614  INFO 14704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-07-26 08:21:48.614  INFO 14704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-07-26 08:21:49.176  INFO 14704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-26 08:21:49.230  INFO 14704 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 5 JPA repository interfaces.
+2022-07-26 08:21:49.342  WARN 14704 --- [restartedMain] t.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[projectdemo.com.democompany]' package. Please check your configuration.
+2022-07-26 08:21:49.729  INFO 14704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-26 08:21:49.734  INFO 14704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-26 08:21:49.735  INFO 14704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.64]
+2022-07-26 08:21:49.788  INFO 14704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-07-26 08:21:49.788  INFO 14704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1174 ms
+2022-07-26 08:21:49.944  INFO 14704 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-26 08:21:49.975  INFO 14704 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-07-26 08:21:50.064  INFO 14704 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-26 08:21:50.126  INFO 14704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-26 08:21:50.391  INFO 14704 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-26 08:21:50.400  INFO 14704 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-26 08:21:50.931  INFO 14704 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-26 08:21:50.937  INFO 14704 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:21:50.985  WARN 14704 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-26 08:21:51.416  INFO 14704 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@242472c9, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@a91f715, org.springframework.security.web.context.SecurityContextPersistenceFilter@3a13c315, org.springframework.security.web.header.HeaderWriterFilter@4a19d73, org.springframework.security.web.authentication.logout.LogoutFilter@27f482aa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15cbdab8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1513d446, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1d9bc705, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a9abf4a, org.springframework.security.web.session.SessionManagementFilter@6245648f, org.springframework.security.web.access.ExceptionTranslationFilter@2fd9df5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@65cccfc7]
+2022-07-26 08:21:51.535  INFO 14704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-07-26 08:21:51.718  INFO 14704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-07-26 08:21:51.723  INFO 14704 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2022-07-26 08:21:51.724  INFO 14704 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2022-07-26 08:21:51.725  INFO 14704 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2022-07-26 08:21:51.726  INFO 14704 --- [restartedMain] t.m.m.autoconfigure.MapperCacheDisabler  : Clear EntityHelper entityTableMap cache.
+2022-07-26 08:21:51.798  INFO 14704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-26 08:21:51.809  INFO 14704 --- [restartedMain] p.c.democompany.DemoCompanyApplication   : Started DemoCompanyApplication in 3.552 seconds (JVM running for 4.406)
+2022-07-26 08:21:56.631  INFO 14704 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-26 08:21:56.631  INFO 14704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-26 08:21:56.632  INFO 14704 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-26 08:21:59.600  INFO 14704 --- [http-nio-8080-exec-1] p.c.d.controller.DepartmentController    : depart get: DepartmentEntity{department_id=5, department_name='Tuyển dụng', department_code='TD', userEntity=[]}
+2022-07-26 08:58:05.820  INFO 14704 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-26 08:58:05.849  INFO 14704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-26 08:58:05.857  INFO 14704 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

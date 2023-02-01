@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+
+    <!--    Đặt thuộc tính LOGS có giá trị là "/.logs" (folder chứa file logs)-->
+    <property name="LOGS" value="./logs"/>
+    <!--    Cấu hình log ra console-->
+    <appender name="Console"
+              class="ch.qos.logback.core.ConsoleAppender">
+        <layout class="ch.qos.logback.classic.PatternLayout">
+            <!--            Dinh dang cua logging-->
+            <Pattern>
+                %white(%d{ISO8601}) %highlight(%-5level) [%blue(%t)] %yellow(%C{1.}): %msg%n%throwable
+            </Pattern>
+        </layout>
+    </appender>
+    <!--    Cấu hình log ngày hiện tại ra file spring-boot-logger.log-->
+    <appender name="RollingFile"
+              class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOGS}/spring-boot-logger.log</file>
+        <encoder
+                class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+            <Pattern>%d %p %C{1.} [%t] %m%n</Pattern>
+        </encoder>
+        <!--        Cấu hình lưu ra file theo mỗi ngày-->
+        <rollingPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedRollingPolicy">
+            <fileNamePattern>
+                ${LOGS}/archived/log_%d{dd-MM-yyyy}_%i.log
+            </fileNamePattern>
+            <!--Khi file quá 10MB sẽ tạo thêm 1 file mới với vị trí được đính kèm -->
+            <!--VD: /archived/log_22-11-2021_0 quá 10 MB -> tạo thêm /archived/log_22-12-2021_1 ...-->
+            <maxFileSize>10MB</maxFileSize>
+            <!--            Sau 30 ngày các file log này sẽ bị xóa-->
+            <maxHistory>30</maxHistory>
+            <!--            Khi tổng file đạt 100MB thì file log cũ nhất sẽ bị xóa-->
+            <totalSizeCap>100MB</totalSizeCap>
+        </rollingPolicy>
+    </appender>
+    <!--    Mức độ in log gốc (log từ mức INFO mới được in ra)-->
+    <root level="info">
+        <appender-ref ref="RollingFile"/>
+        <appender-ref ref="Console"/>
+    </root>
+    <!--    Mức độ in log cho một package nào đó-->
+    <logger name="projectdemo/com/democompany/controller" level="info" additivity="false">
+        <appender-ref ref="RollingFile"/>
+        <appender-ref ref="Console"/>
+    </logger>
+</configuration>
